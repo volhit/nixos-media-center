@@ -2,6 +2,9 @@
 
 {
   environment.systemPackages = with pkgs; [
+    neovim
+    wget
+    btop
     upx
     git
     lazygit
