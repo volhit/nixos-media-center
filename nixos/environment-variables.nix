@@ -13,5 +13,7 @@
   # environment.variables.CLIPBOARD_NOPROGRESS = "1";
   # environment.variables.CLIPBOARD_NOREMOTE = "1";
   environment.variables.CLIPBOARD_SILENT = "1";
-  LIBGL_ALLWAYS_SOFTWARE = "1";
+
+  # FIXIT. Remove on real hardware
+  environment.variables.LIBGL_ALLWAYS_SOFTWARE = "1";
 }
