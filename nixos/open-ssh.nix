@@ -8,7 +8,7 @@
       PasswordAuthentication = true;
       KbdInteractiveAuthentication = false;
       PermitRootLogin = "no";
-      AllowUsers = [ "kodi" ];
+      AllowUsers = [ "volhit" ];
     };
   };
 }
