@@ -17,7 +17,8 @@
         # ./disable-nvidia.nix
         ./opengl.nix
         # ./fingerprint-scanner.nix
-        ./yubikey.nix
+        # I don't want yobikey
+        #./yubikey.nix
         ./sound.nix
         ./usb.nix
         ./time.nix
@@ -26,7 +27,7 @@
         ./nix-settings.nix
         ./nixpkgs.nix
         ./gc.nix
-        # ./auto-upgrade.nix
+        ./auto-upgrade.nix
         ./linux-kernel.nix
         ./screen.nix
         ./display-manager.nix
@@ -42,20 +43,20 @@
         ./bluetooth.nix
         ./networking.nix
         # ./mac-randomize.nix
-        # ./open-ssh.nix
+        ./open-ssh.nix
         ./firewall.nix
         ./dns.nix
         # ./vpn.nix
         ./users.nix
-        ./virtualisation.nix
+        # ./virtualisation.nix
         ./programming-languages.nix
-        ./lsp.nix
-        ./rust.nix
-        ./wasm.nix
+        # ./lsp.nix
+        # ./rust.nix
+        # ./wasm.nix
         ./info-fetchers.nix
         ./utils.nix
         ./terminal-utils.nix
-        ./work.nix
+        # ./work.nix
       ];
     };
   };
