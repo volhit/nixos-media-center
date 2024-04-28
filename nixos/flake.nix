@@ -1,9 +1,13 @@
 {
-  description = "XNM's NixOS Configuration";
+  description = "MediaCenter NixOS Configuration";
 
   inputs = {
-      nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-      rust-overlay.url = "github:oxalica/rust-overlay";
+      nixpkgs.url = "nixpkgs/nixos-23.11";
+
+      home-manager = {
+        url = "github:nix-community/home-manager/release-23.11";
+        inputs.nixpkgs.follows = "nixpkgs";
+      };
   };
 
   outputs = { nixpkgs, ... } @ inputs:
