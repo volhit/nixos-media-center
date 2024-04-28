@@ -10,10 +10,12 @@
       };
   };
 
-  outputs = { nixpkgs, ... } @ inputs:
-  {
-    nixosConfigurations = nixpkgs.lib.nixosSystem {
-      specialArgs = { inherit inputs; };
+  outputs = { self, nixpkgs, ... }:
+    let
+      lib = nixpkgs.lib;
+    in {
+    nixosConfigurations =  {
+      kodi = nixpkgs.lib.nixosSystem;
 
       modules = [
         ./configuration.nix
