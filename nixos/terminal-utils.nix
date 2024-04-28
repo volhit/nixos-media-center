@@ -18,7 +18,6 @@
     topgrade
     ripgrep
     rewrk
-    wrk2
     procs
     tealdeer
     # skim #fzf better alternative in rust
