@@ -8,7 +8,7 @@
     extraGroups = [ "networkmanager" "input" "wheel" "video" "audio" "tss" ];
     shell = pkgs.fish;
     packages = with pkgs; [
-      spotify
+      # spotify # FIXIT may be enabled on x86_64 cpu
       youtube-music
       brave
       # discord
