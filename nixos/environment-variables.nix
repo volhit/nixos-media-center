@@ -2,7 +2,7 @@
 
 {
   # Setup Env Variables
-  environment.variables.SPOTIFY_PATH = "${pkgs.spotify}/";
+  # environment.variables.SPOTIFY_PATH = "${pkgs.spotify}/"; # FIXIT it may be enabled in x86_64 cpu
   environment.variables.JDK_PATH = "${pkgs.jdk11}/";
   environment.variables.NODEJS_PATH = "${pkgs.nodePackages_latest.nodejs}/";
 
