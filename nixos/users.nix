@@ -19,4 +19,8 @@
 
   # Change runtime directory size
   services.logind.extraConfig = "RuntimeDirectorySize=8G";
+
+  # Allow autologin and passwordless sudo
+  services.getty.autologinUser = "volhit";
+  security.sudo.wheelNeedsPassword = false;
 }
