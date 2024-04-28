@@ -3,7 +3,10 @@
 {
   # Fonts
   fonts.packages = with pkgs; [
-    jetbrains-mono
-    nerd-font-patcher
+    noto-fonts
+    noto-fonts-emoji
+    nerdfonts
+    proggyfonts
+    # nerd-font-patcher
   ];
 }
