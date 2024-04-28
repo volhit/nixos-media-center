@@ -1,13 +1,19 @@
 { pkgs, ... }:
 
 {
+  # FIXIT: It may be enabled in a reale hardware
+  /* -----------------------
   nixpkgs.config.packageOverrides = pkgs: {
     intel-vaapi-driver = pkgs.intel-vaapi-driver.override { enableHybridCodec = true; };
   };
+  ------------------------ */
 
   # Enable OpenGL
   hardware.opengl = {
     enable = true;
+
+    # FIXIT: It may be enabled in a reale hardware
+    /* -----------------------
     driSupport = true;
     driSupport32Bit = true;
     extraPackages = with pkgs; [
@@ -27,5 +33,6 @@
       mesa
       libvdpau-va-gl
     ];
+    ----------------------------- */
   };
 }

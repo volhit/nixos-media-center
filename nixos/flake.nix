@@ -25,7 +25,7 @@
             ./hardware-configuration.nix
             # ./nvidia.nix
             # ./disable-nvidia.nix
-            # ./opengl.nix # FIXIT: It can be enabled on a real hardware
+            ./opengl.nix
             # ./fingerprint-scanner.nix
             # I don't want yobikey
             #./yubikey.nix
