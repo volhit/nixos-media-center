@@ -9,7 +9,7 @@
   hardware.opengl = {
     enable = true;
     driSupport = true;
-    driSupport32Bit = true;
+    # driSupport32Bit = true; # FIXIT in a real hardware
     extraPackages = with pkgs; [
       intel-compute-runtime
       intel-media-driver    # LIBVA_DRIVER_NAME=iHD
