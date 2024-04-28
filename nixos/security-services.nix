@@ -48,9 +48,9 @@
         executable = "${lib.getBin pkgs.zathura}/bin/zathura";
         profile = "${pkgs.firejail}/etc/firejail/zathura.profile";
       };
-      discord = {
-        executable = "${lib.getBin pkgs.discord}/bin/discord";
-      };
+#      discord = {
+#        executable = "${lib.getBin pkgs.discord}/bin/discord";
+#      };
     };
   };
 
