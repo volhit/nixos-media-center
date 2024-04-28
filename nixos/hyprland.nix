@@ -15,6 +15,7 @@
     hypridle
     hyprpaper
 
+    alacritty
     wezterm
     cool-retro-term
 
