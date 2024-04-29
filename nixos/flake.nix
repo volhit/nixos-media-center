@@ -22,6 +22,7 @@
 
           modules = [
             ./configuration.nix
+            ./hosts.nix
             ./hardware-configuration.nix
             # ./nvidia.nix
             # ./disable-nvidia.nix

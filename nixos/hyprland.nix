@@ -11,7 +11,6 @@
     pyprland
     hyprpicker
     hyprcursor
-    hyprlock
     hypridle
     hyprpaper
 
