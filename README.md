@@ -86,7 +86,6 @@ The showcased images do not reflect the latest version of the system's appearanc
 | Color Picker          | Hyprpicker                  |
 | Clipboard             | Wl-clipboard + Cliphist + Clipboard-jh |
 | Idle                  | Hypridle                    |
-| Lock                  | Hyprlock                    |
 | Logout menu           | Wlogout                     |
 | Wallpaper             | Hyprpaper                   |
 | Graphical Boot        | Plymouth + Catppuccin-plymouth |
@@ -182,7 +181,6 @@ And many other useful utilities. The full list can be found in the system config
 | SUPER + Y              | Launch `youtube-music`       |
 | SUPER + SHIFT + D      | Launch `discord`             |
 | SUPER + SHIFT + T      | Launch `telegram`            |
-| SUPER + SHIFT + L      | Launch `hyprlock`            |
 | SUPER + SHIFT + S      | Take screenshot              |
 | SUPER + E              | Launch `swappy` to edit last taken screenshot |
 | SUPER + R              | Record screen area (MP4)     |
