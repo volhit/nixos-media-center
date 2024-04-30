@@ -23,7 +23,7 @@
     starship
     helix
 
-    qutebrowser
+    firefox
     zathura
     mpv
     imv
